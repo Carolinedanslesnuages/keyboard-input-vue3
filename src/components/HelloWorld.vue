@@ -1,6 +1,6 @@
 <template>
 <div class="form-wrapper rounded">
-  <div class="relative">
+  <div>
     <input
       v-model="inputValue"
       class="bg-gray-100 shadow rounded border-0 p-3 outline-none"
@@ -31,7 +31,7 @@
 
   export default {
     setup() {
-      const showKeyBoard = ref(Boolean)
+      const showKeyBoard = ref(false)
       const inputValue = ref('')
       const btns = reactive([
         { number: '1', value: 1 },
