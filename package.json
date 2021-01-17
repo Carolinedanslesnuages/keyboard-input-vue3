@@ -1,7 +1,10 @@
 {
   "name": "keyboard-input-vue3",
   "version": "0.0.1",
-  "author": {"name": "Carolinedanslesnuages", "url": "https://github.com/Carolinedanslesnuages/keyboard-input-vue3"},
+  "author": {
+    "name": "Carolinedanslesnuages",
+    "url": "https://github.com/Carolinedanslesnuages/keyboard-input-vue3"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -22,6 +25,11 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "postcss": "^8.2.4",
+    "postcss-apply": "^0.12.0",
+    "postcss-current-selector": "0.0.3",
+    "postcss-nested": "^4.2.3",
+    "postcss-nested-ancestors": "^2.0.0",
+    "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.0.2",
     "vite": "^2.0.0-beta.12"
   }

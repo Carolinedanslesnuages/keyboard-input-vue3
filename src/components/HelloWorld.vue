@@ -64,6 +64,9 @@
   }
 </script>
 <style lang="postcss" scoped>
+
+/* purgecss start ignore */
+
 .form {
 max-width: 32rem;
 }
@@ -100,4 +103,5 @@ justify-content: center;
     @apply bg-gray-500;
   }
 }
+/* purgecss end ignore */
 </style>
