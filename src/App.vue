@@ -1,6 +1,6 @@
 <template>
 <div class="flex justify-center">
- <h1 class="font-bold text-3xl">🎉 Keyboard with  Vuejs 3, TailwindCSS  and ⚡ Vite ✨</h1>
+ <h1 class="font-bold text-3xl text-gray-500">🎉 Keyboard with  Vuejs 3, TailwindCSS  and ⚡ Vite ✨</h1>
   <HelloWorld />
 </div>
 </template>
